@@ -5,6 +5,14 @@
 .navbar-default {
   background: none;
   border-color: none;
+  padding-top:65px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
@@ -21,6 +29,10 @@
 .navbar-default .navbar-nav > li > a {
   color: #71bf44;
   font-size:15px;
+}
+.navbar-default .navbar-nav > li > a > i {
+  color: #71bf44;
+  font-size:25px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -42,6 +54,9 @@
 .navbar-default {
   background-color: none;
   border-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #71bf44;
 }
 .green-navbar {
   font-family: 'Montserrat', sans-serif;
@@ -113,6 +128,9 @@ h3 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008fd5', endColorstr='#00aeef',GradientType=0 ); /* IE6-9 */;
   padding-top:15px;
   padding-bottom:15px;
+  position:fixed;
+  z-index:9999;
+  width:100%;
 }
 .blue-band p {
   font-family: 'Montserrat', sans-serif;
@@ -120,17 +138,19 @@ h3 {
   color:#ffffff;
 }
 .blue-band i {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color:#ffffff;
-  font-size:15px;	
+  font-size:30px;	
 }
 .blue-band a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color:#ffffff;
-  font-size:18px;	
-  
+  font-size:15px;	
+}
+.blue-row {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 
@@ -172,6 +192,7 @@ h3 {
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
+	white-space:inherit;
 }
 .green-band button:hover,
 .green-band button:focus,
