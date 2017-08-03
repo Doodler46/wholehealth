@@ -82,6 +82,15 @@ p {
   font-weight: 400;
   font-size:15px;
 }
+a {
+  color: #b7b7b7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #71bf43;
+  text-decoration: none;
+}
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -179,6 +188,10 @@ h3 {
   color:#ffffff;
   font-size:15px;
 }
+.green-band a {
+    text-decoration: none;
+	color:#ffffff;
+}
 .green-band button {
     background-color: transparent; /* Green */
     border: 5px solid #FFFFFF;
@@ -275,6 +288,10 @@ h3 {
   width:100%;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+}
+.footer button a{
+  text-decoration: none;
+  color:#ffffff;
 }
 .footer button:hover,
 .footer button:focus,
