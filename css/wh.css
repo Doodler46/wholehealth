@@ -99,7 +99,12 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;	
 }
-
+name {
+  font-family: 'Montserrat', sans-serif;
+  color: #00aeef;
+  font-size:20px;
+  font-weight:400;
+}
 
 
 
@@ -125,6 +130,35 @@ h3 {
 
 
 
+
+/* jumbotron */
+.jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color:#D8D8D8;
+  z-index:999999;
+  position:inherit;
+}
+.container .jumbotron,
+.container-fluid .jumbotron {
+  border-radius: 40px;
+}
+.jumbotron p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size:15px;
+}
+.jumbotron name {
+  font-family: 'Montserrat', sans-serif;
+  color: #00aeef;
+  font-weight:600;
+}
+.jumbotron title {
+  font-family: 'Montserrat', sans-serif;
+  color: #00aeef;
+  font-weight:400;
+}
 
 /* blue band content */
 .blue-band {
