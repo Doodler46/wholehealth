@@ -36,9 +36,13 @@
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #71bf44;
+  color: #00aeef;
   background-color: transparent;
-  font-weight:700;
+}
+.navbar-default .navbar-nav > li > a > i:hover,
+.navbar-default .navbar-nav > li > a > i:focus {
+  color: #00aeef;
+  background-color: transparent;
 }
 .navbar-toggle {
   position: relative;
@@ -68,6 +72,22 @@
 }
 
 
+
+
+
+/* images */
+#logo {
+  position: absolute;
+  z-index: 10; 	
+}
+#hero {
+  position: absolute;
+  z-index: 0; 	
+}
+#image{
+  position:absolute;
+  width: 100%;	
+}
 
 
 
@@ -118,14 +138,7 @@ name {
   margin: 40px 0 20px;
   border-bottom: none;
 }
-#logo {
-  position: absolute;
-  z-index: 10; 	
-}
-#hero {
-  position: absolute;
-  z-index: 0; 	
-}
+
 
 
 
@@ -133,12 +146,13 @@ name {
 
 /* jumbotron */
 .jumbotron {
-  padding: 30px 15px;
+  padding: 15px 15px;
   margin-bottom: 30px;
   color: inherit;
-  background-color:#D8D8D8;
-  z-index:999999;
-  position:inherit;
+  background-color:#ffffff;
+  z-index:9;
+  position:relative;
+  margin-top:-20%;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
@@ -149,16 +163,72 @@ name {
   font-weight: 400;
   font-size:15px;
 }
+.jumbotron a {
+  color: #00aeef;
+  font-weight: 600;
+}
+.jumbotron a:hover,
+.jumbotron a:focus,
+.jumbotron a.focus {
+
+}
+.jumbotron i {
+  font-size:35px;
+  color: #00aeef;
+}
+.jumbotron i:hover,
+.jumbotron i:focus,
+.jumbotron i.focus {
+  color: #ffffff;
+}
+.jumbotron h3 {
+  font-size:20px;
+  padding-top:20px;
+}
 .jumbotron name {
   font-family: 'Montserrat', sans-serif;
   color: #00aeef;
   font-weight:600;
 }
-.jumbotron title {
+.jumbotron role {
   font-family: 'Montserrat', sans-serif;
   color: #00aeef;
   font-weight:400;
 }
+.jumbotron button {
+    background-color: transparent; /* Green */
+    border: 3px solid #00aeef;
+	border-radius:12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #00aeef;
+    padding: 15px;
+	margin-top:25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	white-space:inherit;
+}
+.jumbotron button:hover,
+.jumbotron button:focus,
+.jumbotron button.focus {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  background: #00aeef; /* Old browsers */
+  background: -moz-linear-gradient(#008fd5 0%, #00aeef 100%);
+  background: -webkit-linear-gradient(#008fd5 0%, #00aeef 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#008fd5), to(#00aeef));
+  background: -o-linear-gradient(#008fd5 0%, #00aeef 100%);
+  background: linear-gradient(#008fd5 0%, #00aeef 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008fd5', endColorstr='#00aeef',GradientType=0 ); /* IE6-9 */;
+}
+
+
+
+
 
 /* blue band content */
 .blue-band {
@@ -216,6 +286,11 @@ name {
   color:#ffffff;
   font-size:26px;
 }
+.green-band h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color:#ffffff;
+}
 .green-band p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -223,8 +298,25 @@ name {
   font-size:15px;
 }
 .green-band a {
-    text-decoration: none;
-	color:#ffffff;
+  text-decoration: none;
+  color:#ffffff;
+}
+.green-band a i {
+  text-decoration: none;
+  color:#ffffff;
+  font-size:25px;
+}
+.green-band a strong {
+  font-weight: 700;
+  color:#ffffff;
+}
+.green-band i {
+  color:#ffffff;
+  font-size:75px;
+}
+.green-band p strong {
+  font-weight: 700;
+  color:#ffffff;
 }
 .green-band button {
     background-color: transparent; /* Green */
@@ -233,7 +325,7 @@ name {
     font-family: 'Montserrat', sans-serif;
     font-weight:400;
     color: white;
-    padding: 10px 32px;
+    padding: 10px 0px;
 	margin-top:25px;
     text-align: center;
     text-decoration: none;
@@ -273,7 +365,10 @@ name {
   font-size:18px;
   color:#008fd5;	
 }
-
+.testimonial .row {
+  margin-right:	0;
+  margin-left: 0;
+}
 
 
 
